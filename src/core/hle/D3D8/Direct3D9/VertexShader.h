@@ -18,4 +18,9 @@ extern HRESULT EmuCompileShader
     ID3DBlob** ppHostShader
 );
 
+extern HRESULT EmuCompileXboxFvf
+(
+	char** shaderData
+);
+
 #endif
